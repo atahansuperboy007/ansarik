@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Modak");
+
+html,
+body{
+    height: 100%;
+}
+
+body{
+    font-size: 24px;
+    line-height: 27px;
+    font-weight:400;
+    overflow-x: hidden;
+    color: #FFFF;
+    font-family: 'Brygada 1918', serif;
+}
+
+body.lock{
+    overflow: hidden;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+footer{
+    flex: 0 0 auto;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-fluid{
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    outline: none;
+}
+
+ul[class],
+ol[class]{
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd{
+    margin: 0;
+    font-size: inherit;
+
+}
+
+ul,li[class]{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select{
+    font: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column; 
+    min-height: 100%;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 900 !important;
+    margin-bottom: 30px;
+    text-shadow: 5px 5px 0px white;
+    font-family: Modak;
+    color: #c11a2b;
+    line-height: 40px;
+}
+
+

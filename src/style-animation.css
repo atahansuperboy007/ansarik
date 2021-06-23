@@ -1,0 +1,26 @@
+@keyframes logoanimation{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes infinite-row-one{
+    0%{
+        transform: translate3d(0px, 0, 0);
+    }
+    100%{
+        transform: translate3d(-104.57%, 0 , 0);
+    }
+}
+
+@keyframes infinite-row-two{
+    0%{
+        transform: translate3d(-9%, 0, 0);
+    }
+    100%{
+        transform: translate3d(-113.57%, 0 , 0);
+    }
+}
