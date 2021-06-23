@@ -66,7 +66,7 @@ function Footer() {
                         </div>
                         <div className="footer-copyright-right">
                             <div className="footer-logo">
-                                <img src={require('/Users/Ансар/Documents/react/ansa-app/src/img/target.svg').default} alt="" />
+                                <img src={require('../../img/target.svg').default} alt="" />
                             </div>
                         </div>
                     </div>

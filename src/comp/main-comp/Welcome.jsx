@@ -28,8 +28,8 @@ function Welcome() {
                         </div>
                         <div className="welcome-right">
                             <div className="welcome-imgs">
-                                <img className="welcome-img" style={{ transform: `rotate(${offsetY * 0.2}deg)` }} src={require('/Users/Ансар/Documents/react/ansa-app/src/img/target.svg').default} alt="" />
-                                <img className="welcome-img-back" style={{ transform: `rotate(${offsetY * 0.2}deg)` }} src={require('/Users/Ансар/Documents/react/ansa-app/src/img/target-white.svg').default} alt="" />
+                                <img className="welcome-img" style={{ transform: `rotate(${offsetY * 0.2}deg)` }} src={require('../../img/target.svg').default} alt="" />
+                                <img className="welcome-img-back" style={{ transform: `rotate(${offsetY * 0.2}deg)` }} src={require('../../img/target-white.svg').default} alt="" />
                             </div>
                         </div>
                     </div>

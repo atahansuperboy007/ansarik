@@ -11,7 +11,7 @@ function Nav() {
                 <div className="container">
                     <div className="header-inner">
                         <div className="header-logo" onClick={showSideBar}>
-                            <img src={require('/Users/Ансар/Documents/react/ansa-app/src/img/target.svg').default} alt="" className="header-logo-img" />
+                            <img src={require('../../img/target.svg').default} alt="" className="header-logo-img" />
                         </div>
                     </div>
                 </div>
@@ -19,7 +19,7 @@ function Nav() {
             <aside className={sidebar ? 'side-bar active' : 'side-bar'}>
                 <div className="side-bar-inner">
                     <div className="side-bar-logo">
-                        <img className="side-bar-logo-img" src={require('/Users/Ансар/Documents/react/ansa-app/src/img/target.svg').default} alt="" />
+                        <img className="side-bar-logo-img" src={require('../../img/target.svg').default} alt="" />
                         <h1 className="side-bar-logo-title">ansagang</h1>
                     </div>
                     <div className="side-bar-links">

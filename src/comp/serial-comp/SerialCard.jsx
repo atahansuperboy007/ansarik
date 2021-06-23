@@ -16,7 +16,7 @@ function SerialCard(props) {
         <Link to={'/serial/' + props.data.id} className="serial-card card">
             <div className="serial-card-top card-top">
                 {
-                    props.data.poster_path ? <img className="serial-card-img card-img" src={link + props.data.poster_path} alt="" /> : <img className="serial-card-img card-img" src={require('/Users/Ансар/Documents/react/ansa-app/src/img/images.png').default}></img>
+                    props.data.poster_path ? <img className="serial-card-img card-img" src={link + props.data.poster_path} alt="" /> : <img className="serial-card-img card-img" src={require('../../img/images.png').default}></img>
                 }
                 <span className={`serial-card-vote_average card-vote_average ${setVoteClass(props.data.vote_average)}`}>{props.data.vote_average}</span>
                 <p className="serial-card-overview card-overview">{`Описание: ${props.data.overview}`}</p>

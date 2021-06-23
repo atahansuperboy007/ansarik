@@ -123,7 +123,7 @@ function Movie() {
         <div className="movie">
             <div className="movie-trailer">
                 {
-                    serial.backdrop_path ? (<img className="movie-backdrop" src={link + serial.backdrop_path} />) : (<img className="movie-backdrop" src={require('/Users/Ансар/Documents/react/ansa-app/src/img/cool-background.png').default} alt="" />)
+                    serial.backdrop_path ? (<img className="movie-backdrop" src={link + serial.backdrop_path} />) : (<img className="movie-backdrop" src={require('../img/cool-background.png').default} alt="" />)
                 }
                 {
                     videos.results.length > 0 ? (<iframe frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen src={videolink + videos.results[0].key}></iframe>) : (<></>)
@@ -133,7 +133,7 @@ function Movie() {
                 <div className="movie-left">
                     <div className="movie-pictures">
                         {
-                            serial.poster_path ? <img className="movie-poster" src={link + serial.poster_path} alt="" /> : <img className="movie-poster" src={require('/Users/Ансар/Documents/react/ansa-app/src/img/images.png').default}></img>
+                            serial.poster_path ? <img className="movie-poster" src={link + serial.poster_path} alt="" /> : <img className="movie-poster" src={require('../img/images.png').default}></img>
                         }
                         <span className={`movie-vote-average ${setVoteClass(serial.vote_average)}`}>{serial.vote_average}</span>
                     </div>

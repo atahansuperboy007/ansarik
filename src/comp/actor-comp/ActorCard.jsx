@@ -7,7 +7,7 @@ function ActorCard(props) {
         <Link to={'person/' + props.data.id} className="actor-card card">
             <div className="actor-card-top card-top">
                 {
-                    props.data.profile_path ? (<img className="actor-card-profile card-img" src={link + props.data.profile_path} alt="" />) : (<img className="actor-card-profile card-img" src={require('/Users/Ансар/Documents/react/ansa-app/src/img/unknown-cast.jpg').default} alt="" />)
+                    props.data.profile_path ? (<img className="actor-card-profile card-img" src={link + props.data.profile_path} alt="" />) : (<img className="actor-card-profile card-img" src={require('../../img/unknown-cast.jpg').default} alt="" />)
                 }
             </div>
             <div className="actor-card-info card-bottom">

@@ -22,7 +22,7 @@ function Person() {
         <div className="person-card">
             <div className="person-card-top">
                 {
-                    person.profile_path ? (<img className="person-card-img" src={link + person.profile_path} alt="" />) : (<img className="person-card-img" src={require('/Users/Ансар/Documents/react/ansa-app/src/img/unknown-cast.jpg').default} alt="" />)
+                    person.profile_path ? (<img className="person-card-img" src={link + person.profile_path} alt="" />) : (<img className="person-card-img" src={require('../img/unknown-cast.jpg').default} alt="" />)
                 }
             </div>
             <div className="person-card-bottom">
